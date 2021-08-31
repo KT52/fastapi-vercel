@@ -7,6 +7,7 @@ from typing import List
 
 app = FastAPI()
 
+# Dependency
 def get_db():
     db = SessionLocal()
     try:
